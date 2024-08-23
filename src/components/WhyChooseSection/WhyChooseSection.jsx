@@ -1,6 +1,4 @@
 import styles from './WhyChooseSection.module.css';
-import Sistema from '../../assets/sistema.png';
-import Invest from '../../assets/Invest.png';
 import { FaCheck } from "react-icons/fa";
 
 function WhyChooseSection() {
@@ -10,8 +8,8 @@ function WhyChooseSection() {
             <div className={styles.container_all}>
                 <div className={styles.container}>
                     <div className={styles.imageContainer}>
-                        <img className={styles.ImgSistema} src={Sistema} alt="" />
-                        <img className={styles.ImgInvest} src={Invest} alt="" />
+                    <img className={styles.ImgSistema} src="./assets/sistema.png" alt="" />
+                    <img className={styles.ImgInvest} src="./assets/invest.png" alt="" />
                     </div>
                     <div className={styles.container_Choose}>
                         <p> <FaCheck style={{ color: 'green' }} /> Task Automation </p>
