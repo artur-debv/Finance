@@ -1,7 +1,7 @@
-
 import styles from './WhyChooseSection.module.css';
 import Sistema from '../../assets/sistema.png';
 import Invest from '../../assets/Invest.png';
+import { FaCheck } from "react-icons/fa";
 
 function WhyChooseSection() {
     return (
@@ -14,7 +14,10 @@ function WhyChooseSection() {
                         <img className={styles.ImgInvest} src={Invest} alt="" />
                     </div>
                     <div className={styles.container_Choose}>
-                       
+                        <p> <FaCheck style={{ color: 'green' }} /> Task Automation </p>
+                        <p> <FaCheck style={{ color: 'green' }} /> Accuracy and Reliability </p>
+                        <p> <FaCheck style={{ color: 'green' }} /> Data Security </p>
+                        <p> <FaCheck style={{ color: 'green' }} /> Excel integration </p>
                     </div>
                 </div>
             </div>
@@ -22,5 +25,4 @@ function WhyChooseSection() {
     )
 }
 
-export default WhyChooseSection
-
+export default WhyChooseSection;
