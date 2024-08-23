@@ -11,10 +11,12 @@ const Header = () => {
         </div>
         <div className={styles.link}>
              <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Features</a></li>
+             <li><a href="#">Princing</a></li>
              <li><a href="#">Contact</a></li>
-             <li><a href="#">Contact</a></li>
-             <li><a href="#">Contact</a></li>
-             <li><a href="#">Contact</a></li>
+             <button className={styles.Buttonlogin}>Login</button>
+             <button className={styles.ButtonSignins}>Sign in</button>
              </ul>
         </div>
       </nav>

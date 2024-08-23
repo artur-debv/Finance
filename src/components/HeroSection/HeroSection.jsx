@@ -11,7 +11,7 @@ const HeroSection = () => {
       <p className={styles.description}>
         Simplify business finances with our efficient, user-friendly financial tracking app.
       </p>
-      <button className={styles.ctaButton}>Get 14-Day Trial</button>
+      <button className={styles.ctaButton}>Iniciar teste grátis</button>
       <div className={styles.imageContainer}>
         <img src={Sistema} alt="Sistema" className={styles.image} />
       </div>

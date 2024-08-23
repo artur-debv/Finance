@@ -1,0 +1,42 @@
+.Title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.SpanTitle{
+    color: #22317F;
+    margin-bottom: 20px;
+}
+
+.container_all {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center; /* Alinha as imagens e o texto "olá" verticalmente ao centro */
+  }
+  
+  .imageContainer {
+    display: flex;
+    flex-direction: column; /* Empilha as imagens verticalmente */
+    margin-right: 20px; /* Espaçamento entre as imagens e o texto */
+  }
+  
+  .ImgSistema {
+    height: 190px; /* Garante que as imagens sejam responsivas */
+    margin-bottom: 10px; /* Espaçamento entre as imagens */
+  }
+
+  .ImgInvest{
+    height: 190px;
+  }
+  
+  .container_Choose {
+    font-size: 24px; /* Tamanho da fonte para o "olá" */
+    display: flex;
+    align-items: center; /* Alinha o texto verticalmente ao centro */
+  }

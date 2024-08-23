@@ -31,4 +31,10 @@
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+  }
+
+  .ctaButton:hover{
+    background-color: #3b3c3d ; /* Altera a cor de fundo ao passar o mouse */
+    color: white; /* Altera a cor do texto ao passar o mouse */
   }

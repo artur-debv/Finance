@@ -6,28 +6,66 @@
   
   .nav {
     display: flex;
-    align-items: center;
+    
     width: 100%;
     justify-content: space-evenly;
     margin-top: 20px;
+    align-items: center;
   }
+
+
+  .Buttonlogin{
+    padding: 7px 7px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+  .Buttonlogin:hover{
+    background-color:#3b3c3d ; /* Altera a cor de fundo ao passar o mouse */
+    color: white; /* Altera a cor do texto ao passar o mouse */
+  }
+
+  .ButtonSignins{
+    padding: 7px 7px; /* Ajuste o padding conforme necessário */
+    background-color: #000; /* Cor de fundo preto */
+    color: white; /* Cor do texto branca */
+    border: 1px solid #fff; /* Borda fina branca */
+    border-radius: 5px; /* Arredonda os cantos */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
+    font-size: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+  }
+
+  .ButtonSignins:hover{
+    background-color: #fff; /* Altera a cor de fundo ao passar o mouse */
+  color: #000; /* Altera a cor do texto ao passar o mouse */
+  }
+
 
 
   .link ul{
     display: flex;
     gap: 20px;
     list-style: none;
+    align-items: center;
   }
 
   .link li a{
     text-decoration: none;
     color: white;
+    align-items: center;
   }
 
   
   .logo {
     color: white;
     font-size: 1.5rem;
+    align-items: center;
   }
   
   .menuButton {
