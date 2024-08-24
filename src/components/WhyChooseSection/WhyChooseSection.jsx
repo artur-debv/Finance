@@ -9,6 +9,8 @@ function WhyChooseSection() {
             <div className={styles.container_all}>
                 <div className={styles.container}>
                     <div className={styles.imageContainer}>
+                        <img src="/src/assets/Sistema.png" alt="" />
+                        <img src="/src/assets/Invest.png" alt="" />
                     </div>
                     <div className={styles.container_Choose}>
                         <p> <FaCheck style={{ color: 'green' }} /> Task Automation </p>
