@@ -1,12 +1,4 @@
 
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-  } from "@/components/ui/carousel"
-  
 
 import styles from './Features.module.css';
 function Features() {
