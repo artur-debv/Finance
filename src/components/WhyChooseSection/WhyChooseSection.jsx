@@ -13,10 +13,10 @@ function WhyChooseSection() {
                         <img className={styles.ImgInvest} src="/src/assets/Invest.png" alt="" />
                     </div>
                     <div className={styles.container_Choose}>
-                        <p> className={styles.TaskAutomation} <FaCheck style={{ color: 'green' }} /> Task Automation </p>
-                        <p> className={styles.AccuracyandReliability} <FaCheck style={{ color: 'green' }} /> Accuracy and Reliability </p>
-                        <p> className={styles.DataSecurity} <FaCheck style={{ color: 'green' }} /> Data Security </p>
-                        <p> className={styles.Excelintegration} <FaCheck style={{ color: 'green' }} /> Excel integration </p>
+                        <p className={styles.TaskAutomation}> <FaCheck style={{ color: 'green' }} /> Task Automation </p>
+                        <p className={styles.AccuracyandReliability}> <FaCheck style={{ color: 'green' }} /> Accuracy and Reliability </p>
+                        <p className={styles.DataSecurity}> <FaCheck style={{ color: 'green' }} /> Data Security </p>
+                        <p className={styles.Excelintegration}> <FaCheck style={{ color: 'green' }} /> Excel integration </p>
                     </div>
                 </div>
             </div>
